@@ -1,15 +1,14 @@
 export default `
 
   type User {
-    id: Int!
+    _id: String!
     username: String!
     email: String!
   }
 
   type Query {
-    me: User!
     allUsers: [User!]!
-    getUser(userId: Int!): User
+    getUser(_id: Int!): User
   }
 
   type RegisterResponse {

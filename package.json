@@ -2,8 +2,8 @@
   "name": "react-graphql-mongo",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Slava Startsev <v.a.startsev@cit.rkomi.ru>",
   "license": "MIT",
+  "author": "Slava Startsev <slava.startsev@tuta.io>",
   "scripts": {
     "start": "nodemon --exec babel-node src/server/index.js",
     "start:dev": "concurrently \"nodemon --exec babel-node src/server/index.js\" \"webpack-dev-server\"",
